@@ -1,0 +1,37 @@
+﻿body {
+    
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #d7d7d8 3px solid;
+    opacity: 0.8;
+   
+}
+
+#home-screen {
+    background: url('imgs/4.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 720px;
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 720px;
+}
+
+.btn {
+margin-top:420px;
+}
+
+

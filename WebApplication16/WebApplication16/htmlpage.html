@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Grid System</title>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body id="body">
+    <nav class="navbar navbar-expand-sm  text-dark font-weight-bold fixed-top" style="background-color:beige; opacity:0.6;">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
+            <a href="#" class="navbar navbar-brand font-weight-bold"> STP</a>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a href="#body" class="nav-link">Home</a></li>
+                    <li class="nav-item"> <a href="#body" class="nav-link">About US</a></li>
+                    <li class="nav-item"> <a href="#body" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header id="home-screen">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row text-center pt-5">
+                        <div class="col ">
+                            <button class="btn w-50 font-weight-bold text-dark" data-toggle="modal" data-target="#register" style="opacity:0.85;font-size:17px;border-radius:15px; background-color:#d7d7d8;">Register in STP </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="modal fade text-dark" id="register" style="height:1100px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalTitle">Contact-Us </h5>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form action="htmlpage.html">
+                        <div class="form-group">
+                            First Name:<input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            Last Name:<input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            E-mail:<input type="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            Phone Number:<input type="tel" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            University:<input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            Faculty:<input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            Department:<input type="text" class="form-control" />
+                        </div>
+
+                        First preferance:<br>
+                        <select style="border-radius:5px;width:220px;height:38px;">
+                            <option> option 1</option>
+                            <option> option 2</option>
+                            <option> option 3</option>
+                            <option> option 4</option>
+                        </select>
+                        <br><br>
+                      
+                        Second preferance:<br>
+                        <select style="border-radius:5px;width:220px;height:38px;">
+                            <option> option 1</option>
+                            <option> option 2</option>
+                            <option> option 3</option>
+                            <option> option 4</option>
+                        </select>
+                        <br>
+                        <br>
+                        <div class="form-group">
+                            <i class="fab fa-facebook"></i>  Facebook profile link:<input type="url" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer form-group" style="height:100px;">
+                    <button type="submit" class="form-control btn btn-primary btn-block" style="margin-bottom:400px;">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
